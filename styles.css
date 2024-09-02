@@ -1,0 +1,83 @@
+@font-face {
+    font-family: Robeto;
+    src: url(Font/Roboto-Regular.woff2);
+  }
+
+html{
+    font-family: Robeto, system-ui;
+    background-color: rgb(247, 247, 247);
+}
+
+/* CSS RESET*/
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+  * {
+    margin: 0;
+  }
+  body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+  }
+  img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+  }
+  input, button, textarea, select {
+    font: inherit;
+  }
+  p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+  }
+  #root, #__next {
+    isolation: isolate;
+  }
+
+/*TABLE STYLING*/
+
+table{
+    width: 900px;
+    margin: 50px auto;
+    text-align: left;
+    background-color: white;
+    font-size: 0.9rem;
+    border-collapse: collapse;
+}
+
+td, th{
+    padding: 22px 30px;
+}
+
+.row1, .row3, .row5, .row7{
+    background-color: rgb(219, 219, 219);
+}
+
+tbody tr>td:first-child{
+    font-weight: bold;
+}
+
+span{
+    padding: 8px 10px;
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+.row1 span, .row4 span,.row8 span{
+    background-color: rgb(2, 156, 2);
+    color: white;
+}
+
+.row2 span, .row6 span, .row7 span{
+    background-color: rgb(243, 188, 26);
+}
+
+.row5 span, .row3 span{
+    background-color: rgba(216, 5, 5, 0.829);
+    color: white;
+}
+
+caption{
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 10px 0;
+}
